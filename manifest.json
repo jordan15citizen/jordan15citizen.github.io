@@ -1,6 +1,6 @@
 {
   "name": "system-tools",
-  "version": "1.8",
+  "version": "1.5",
   "maintainer": "jordan15citizen",
   "control": {
     "Architecture": "aarch64",

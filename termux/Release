@@ -1,0 +1,13 @@
+Origin: jordan15citizen
+Label: jordan15citizen
+Suite: termux
+Codename: termux
+Architectures: aarch64
+Description: Signed System Tools
+Date: Fri, 20 Mar 2026 19:52:23 +0000
+MD5Sum:
+ 38b77bc45d4d2b7d8621e1ef31e299c8 434 Packages
+ 95b3fb4e8ff2226191220f49f1713c9d 334 Packages.gz
+SHA256:
+ 0b42dc623ee93347e72a4ed492dc2a3ccb073139993b37ac76df41f9dab8b4ec 434 Packages
+ b1d7d6de4aace7f3eeb043250b1bc0ec3fe8269b3eee40426c61bef56e5b95ab 334 Packages.gz
