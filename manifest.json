@@ -16,8 +16,5 @@
     "./sys-net": "bin/sys-net",
     "./sys-alias": "bin/sys-alias",
     "./sys-weather": "bin/sys-weather"
-  },
-  "scripts": {
-    "postinst": "./postinst"
   }
 }
