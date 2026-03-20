@@ -4,10 +4,10 @@ Suite: termux
 Codename: termux
 Architectures: aarch64
 Description: Signed System Tools
-Date: Fri, 20 Mar 2026 19:52:23 +0000
+Date: Fri, 20 Mar 2026 19:53:53 +0000
 MD5Sum:
- 38b77bc45d4d2b7d8621e1ef31e299c8 434 Packages
- 95b3fb4e8ff2226191220f49f1713c9d 334 Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 Packages
+ 61bda06c6c54f3b80b16535601e12f87 29 Packages.gz
 SHA256:
- 0b42dc623ee93347e72a4ed492dc2a3ccb073139993b37ac76df41f9dab8b4ec 434 Packages
- b1d7d6de4aace7f3eeb043250b1bc0ec3fe8269b3eee40426c61bef56e5b95ab 334 Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 Packages
+ d49ad576097f87d9a21cb76f2ec9d0fc70a347552c7e692fc1a19d189f2ea47f 29 Packages.gz
