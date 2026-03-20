@@ -1,20 +1,12 @@
 {
-  "name": "system-tools",
-  "version": "2.6",
-  "maintainer": "jordan15citizen",
-  "control": {
-    "Architecture": "aarch64",
-    "Description": "The Ultimate System Suite (Auto-Config)",
-    "Depends": "termux-api, curl, dnsutils",
-    "Conflicts": "sysinfo",
-    "Replaces": "sysinfo"
-  },
-  "files": {
-    "./sysinfo": "bin/sysinfo",
-    "./sys-stat": "bin/sys-stat",
-    "./sys-clean": "bin/sys-clean",
-    "./sys-net": "bin/sys-net",
-    "./sys-alias": "bin/sys-alias",
-    "./sys-weather": "bin/sys-weather"
-  }
+"name": "system-tools",
+"version": "0.23.9",
+"arch": "all",
+"maintainer": "Jordan",
+"description": "High-intensity system diagnostics (KVM/CPU/MEM)",
+"homepage": "https://github.com/jordan15citizen",
+"depends": ["bash", "grep", "coreutils"],
+"files": {
+  "./system-tools": "bin/system-tools"
+}
 }

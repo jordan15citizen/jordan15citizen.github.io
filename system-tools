@@ -1,0 +1,89 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+RED='\033[0;91m'
+Y='\033[0;93m'
+GRN='\033[0;92m'
+NC='\033[0m' # No Color
+# Variables
+SOCMODEL=$(getprop ro.soc.model)
+CPUABI=$(getprop ro.product.cpu.abi)
+# Functions
+msg() {
+printf -- "- $*\n"
+}
+warn() {
+printf "${Y}warning:${NC} $*\n"
+}
+err() {
+printf "${RED}error:${NC} $*\n"
+}
+# Check for empty command
+if [[ "$#" -eq 0 ]]; then
+warn "no command provided."
+warn "defaulting to help."
+echo
+set -- "help"
+fi
+# Main Functions
+case $1 in
+pull)
+# Sub-Functions
+case $2 in
+kvm-info)
+msg "Checking KVM Support..."
+# Statement for checking support
+if [[ -e /dev/kvm ]]; then
+# If KVM Support was found
+msg "${GRN}Found KVM device!${NC}"
+msg "This ${GRN}device${NC} ${GRN}has KVM support!${NC}"
+else
+# If KVM Support wasn't found
+msg "${RED}Could not find KVM device!${NC}"
+msg "This ${RED}device${NC} ${RED}doesn't have KVM Support ${NC}:("
+fi
+;;
+cpu-info)
+msg "CPU Soc Name: $SOCMODEL"
+msg "CPU ABI: $CPUABI"
+;;
+help)
+# Options for sub-commands
+echo "Options:"
+echo
+
+msg "kvm-info:"
+msg "Checks for KVM support."
+
+echo "cpu-info:"
+msg "Pull CPU information."
+;;
+mem-info)
+msg "Checking Memory Stats..."
+# Extracting kB and converting to MB for readability
+T_KB=$(grep MemTotal /proc/meminfo | awk '{print $2}')
+A_KB=$(grep MemAvailable /proc/meminfo | awk '{print $2}')
+T_MB=$((T_KB / 1024))
+A_MB=$((A_KB / 1024))
+U_MB=$((T_MB - A_MB))
+msg "Total Memory: ${T_MB} MB"
+msg "Used Memory: ${U_MB} MB"
+msg "Available Memory: ${A_MB} MB"
+;;
+*)
+err "invalid sub-command $2!"
+;;
+esac
+;;
+help)
+# Options for main commands
+echo "Options:"
+echo
+
+# Currently each branch has only one command
+echo "pull:"
+msg "Pull info from second argument (e.g. kvm-info)"
+;;
+*)
+err "invalid command $1!"
+;;
+esac

@@ -1,15 +1,14 @@
 Package: system-tools
-Version: 2.6
-Architecture: aarch64
-Maintainer: jordan15citizen
-Installed-Size: 6
-Depends: termux-api, curl, dnsutils
-Conflicts: sysinfo
-Replaces: sysinfo
-Filename: termux/system-tools_2.6_aarch64.deb
-Size: 1824
-MD5sum: 6aa76cf1331e90c28b76389c726764cd
-SHA1: 67d32c09bf136b9a96715d263d4c73f3568ca0dc
-SHA256: 2426420aa54eab6b57c3ea2910d5b199f15bf236b489f9731f2932a21af07e18
-Description: The Ultimate System Suite (Auto-Config)
+Version: 0.23.9
+Architecture: all
+Maintainer: Jordan
+Installed-Size: 2
+Depends: bash, grep, coreutils
+Filename: ./system-tools_0.23.9_all.deb
+Size: 1716
+MD5sum: 90e228db2797b9656fac84d1c96d7f09
+SHA1: 66f6f641551a4ecf12b0e05a3d2ae73fc1c43471
+SHA256: b458c4a254ddb9aa69e26dea4df8eda9f2a911c99a4bd84c3234dc19b88805da
+Homepage: https://github.com/jordan15citizen
+Description: High-intensity system diagnostics (KVM/CPU/MEM)
 

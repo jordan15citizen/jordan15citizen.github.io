@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "--- [ Local Weather ] ---"
-# 'm' for metric, '1' for a compact 1-line view
-curl -s "https://wttr.in?m&format=3" || echo "Weather unavailable (check connection)"
-echo "--------------------------"

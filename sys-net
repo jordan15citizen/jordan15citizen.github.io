@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "--- [ Network Status ] ---"
-echo "Local IP: $(ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}')"
-echo "Public IP: $(curl -s https://ifconfig.me)"
-ping -c 1 8.8.8.8 > /dev/null 2>&1 && echo "Internet: UP" || echo "Internet: DOWN"
-echo "--------------------------"

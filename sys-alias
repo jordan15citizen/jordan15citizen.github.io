@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "alias up='pkg update && pkg upgrade'" >> ~/.bashrc
-echo "alias cls='clear'" >> ~/.bashrc
-echo "alias ..='cd ..'" >> ~/.bashrc
-echo "Shortcuts added! Restart Termux to use 'up', 'cls', and '..'"

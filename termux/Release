@@ -1,13 +1,13 @@
-Origin: jordan15citizen
-Label: jordan15citizen
-Suite: termux
-Codename: termux
-Architectures: aarch64
-Description: Signed System Tools
-Date: Fri, 20 Mar 2026 20:46:09 +0000
+Date: Fri, 20 Mar 2026 23:04:44 +0000
 MD5Sum:
- 21b47b4ccd64a3789a72f30da62cb67b 448 Packages
- 95473f477644cd74aeaf69ef27317f8a 348 Packages.gz
+ f62e6e257de234a56f811a036f34f0a0              443 Packages
+ 16e5eabd9fd02fa42746327cfd4d924f               38 Release
+SHA1:
+ a7582a6952720ea5b6e89cd768f6c916163c2a8b              443 Packages
+ 8502a4f7205cd78cf3f0a5513c5d17b964e85df5               38 Release
 SHA256:
- 59011173c33e0cb4d8154c35e2a6b07e32a8e909d5771de9f578daab68854aa2 448 Packages
- e147b160606d38a1cae2b988309de6b5147ac798e00257e371920caf1e2e8ae2 348 Packages.gz
+ 7ee7d7bb12e1f53143d0087b9a9d2f77b4c200e1341a1987802138ddffade4f1              443 Packages
+ 698ed7542c01f4534808b7e1fade75d56c6f0013670f87d8f2ffe90352183205               38 Release
+SHA512:
+ e83867f1129ec04943b9a5c20becdeed91dc62e7065ed33b19d2cc7fc639f6c9ae487ac90a00ba12a9ba10afbc9d8648a7b365dd6423bd3a10f95b4a75173ff8              443 Packages
+ 8efb2bdbf932e8e74df87b0eac7ed4ca594353c3ff5a181dc067d84c8d78624295d1450a64dae6afcdec0e07e084c2a2fc7f91ff4c8243bb1cefc27d2cb1969e               38 Release
