@@ -1,14 +1,14 @@
 Package: system-tools
-Version: 1.0
+Version: 1.1
 Architecture: aarch64
 Maintainer: jordan15citizen
-Installed-Size: 1
+Installed-Size: 2
 Conflicts: sysinfo
 Replaces: sysinfo
-Filename: termux/system-tools_1.0_aarch64.deb
-Size: 932
-MD5sum: 1d774f751555a8a4d0a6cc4d77162009
-SHA1: 38c387f516b5c45b5b2e8b9e17d3e62fa522f837
-SHA256: 245f526dcacd2e5be7268e2e893af6793a84f91b895468eec97380195ea9516f
-Description: Advanced system utilities
+Filename: termux/system-tools_1.1_aarch64.deb
+Size: 1204
+MD5sum: 29767d0c95347dde523e7ca8610b60a4
+SHA1: 205bf616755c251555785d36ac4b5f147587c992
+SHA256: e3e5144480697ce0496d420f1c61db982fdb5d0ada0cb6086df40686ebb9ada6
+Description: Advanced system & hardware utilities
 

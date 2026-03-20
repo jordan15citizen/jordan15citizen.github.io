@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "--- [ System Status ] ---"
+# Get Battery level from the kernel
+cat /sys/class/power_supply/battery/capacity | xargs echo "Battery: %"
+# Get Battery status (Charging/Discharging)
+cat /sys/class/power_supply/battery/status | xargs echo "Status: "
+# Get CPU Temp (Scaled to Celsius)
+TEMP=$(cat /sys/class/thermal/thermal_zone0/temp)
+echo "CPU Temp: $((TEMP/1000))°C"
+echo "------------------------"
