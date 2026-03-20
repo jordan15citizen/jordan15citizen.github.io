@@ -1,0 +1,14 @@
+{
+  "name": "system-tools",
+  "version": "1.0",
+  "maintainer": "jordan15citizen",
+  "control": {
+    "Architecture": "aarch64",
+    "Description": "Advanced system utilities",
+    "Conflicts": "sysinfo",
+    "Replaces": "sysinfo"
+  },
+  "files": {
+    "./sysinfo": "bin/sysinfo"
+  }
+}
