@@ -7,18 +7,18 @@ Suite: termux
 Codename: termux
 Architectures: aarch64
 Description: Signed System Tools
-Date: Fri, 20 Mar 2026 19:55:34 +0000
+Date: Fri, 20 Mar 2026 19:57:45 +0000
 MD5Sum:
- 2a59e3a3aa6faa9dd456e6c36810c42e 434 Packages
- b4d476842e9f8e27fae493ba8036f2d3 335 Packages.gz
+ a0f3c0874f1cc40273b4fbb79c89b9fc 434 Packages
+ 8c4ae175fec9de3f65cdfb1c9048e463 335 Packages.gz
 SHA256:
- 3b0a2ad06a8019ea7cdddb4d3b2d003b3995ada49d6abbf657262554910d5a90 434 Packages
- 81f31c0e976b1a0dd5ce6e982fff00cc9a0705ba5404fcff807e43f3631bd3f1 335 Packages.gz
+ a9d5f1792100c0f4fc53f41f26d052bccb4ca5fdc9884e0ef02c8d0de40779bd 434 Packages
+ 48918abf88af267826004ce57b47ce83f4479aa50fea6f1c8d8325871e4b03ec 335 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQRQCTC0Cp5dqQIHvzPBk6OncEysbgUCab2mNxsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQwZOjp3BMrG7EBQD+M29IY9tWuIMcbYnZrVu5
-rYbGcrPTg1yug6yzJ8c4sj8A/0hOtOY5E6KqvzL+LH/cc4oBcnkqpuLB0T6azKXN
-faQP
-=3TZE
+iJEEARYKADkWIQRQCTC0Cp5dqQIHvzPBk6OncEysbgUCab2muRsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQwZOjp3BMrG4SRAEA+HjiVB/sjj0p3jvC1xjW
+4b4ONSDD2ZjaxQ4WPBJfmyABAIZNnnHvn8mO+CE6e403oGg1CXCAjDrlCGFjNaPg
+TnwL
+=C7c8
 -----END PGP SIGNATURE-----
