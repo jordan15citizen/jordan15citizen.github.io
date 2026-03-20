@@ -1,16 +1,19 @@
 {
   "name": "system-tools",
-  "version": "2.0",
+  "version": "2.5",
   "maintainer": "jordan15citizen",
   "control": {
     "Architecture": "aarch64",
-    "Description": "Collection of system & hardware utilities",
-    "Depends": "termux-api",
+    "Description": "The Ultimate System Suite",
+    "Depends": "termux-api, curl, dnsutils",
     "Conflicts": "sysinfo",
     "Replaces": "sysinfo"
   },
   "files": {
     "./sysinfo": "bin/sysinfo",
-    "./sys-stat": "bin/sys-stat"
+    "./sys-stat": "bin/sys-stat",
+    "./sys-clean": "bin/sys-clean",
+    "./sys-net": "bin/sys-net",
+    "./sys-alias": "bin/sys-alias"
   }
 }

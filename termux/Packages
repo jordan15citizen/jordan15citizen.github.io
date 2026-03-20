@@ -1,15 +1,15 @@
 Package: system-tools
-Version: 2.0
+Version: 2.5
 Architecture: aarch64
 Maintainer: jordan15citizen
-Installed-Size: 2
-Depends: termux-api
+Installed-Size: 5
+Depends: termux-api, curl, dnsutils
 Conflicts: sysinfo
 Replaces: sysinfo
-Filename: termux/system-tools_2.0_aarch64.deb
-Size: 1200
-MD5sum: cd867500bd2597d9460819b1b8c1e83e
-SHA1: 0d981aadeea4dab62ec50127f2d8a08ce14f674f
-SHA256: 02c2fd095acb6e549f7ea17bae483a0994511aa97bb463015b5cd6b0d5f1c730
-Description: Collection of system & hardware utilities
+Filename: termux/system-tools_2.5_aarch64.deb
+Size: 1648
+MD5sum: bd5a2f4a1c3086ad8388f72ed3cd4dd0
+SHA1: 9eb56adb521c095aa160ab9d3410ff37d607aa0c
+SHA256: fd524f3660727acbcb5a3d1af548f2328f91c96a1949ae20000c8f645d472dac
+Description: The Ultimate System Suite
 

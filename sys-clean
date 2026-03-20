@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "--- [ Cleaning System ] ---"
+du -sh $PREFIX/var/cache/apt/archives
+pkg clean
+rm -rf $TMPDIR/*
+echo "Done. Storage reclaimed."
+echo "--------------------------"
