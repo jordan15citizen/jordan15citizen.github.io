@@ -1,0 +1,15 @@
+Package: system-tools
+Version: 1.4
+Architecture: aarch64
+Maintainer: jordan15citizen
+Installed-Size: 2
+Depends: termux-api
+Conflicts: sysinfo
+Replaces: sysinfo
+Filename: termux/system-tools_1.4_aarch64.deb
+Size: 1200
+MD5sum: aa01ec8e0118f486c78cd03e9762c4e6
+SHA1: 0bfccd1ab661ddd03c2149cbef1d80707be0ba1c
+SHA256: 7b2cb892f35aa823751e3180dee909578914eb6aebc34c5ec1682432ebeee00f
+Description: Collection of system & hardware utilities
+

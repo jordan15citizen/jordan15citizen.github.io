@@ -1,6 +1,6 @@
 {
   "name": "system-tools",
-  "version": "# Type 1.2 when it asks for the version1.4",
+  "version": "1.4",
   "maintainer": "jordan15citizen",
   "control": {
     "Architecture": "aarch64",
