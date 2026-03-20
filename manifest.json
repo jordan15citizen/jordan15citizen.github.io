@@ -1,10 +1,10 @@
 {
   "name": "system-tools",
-  "version": "2.5",
+  "version": "2.6",
   "maintainer": "jordan15citizen",
   "control": {
     "Architecture": "aarch64",
-    "Description": "The Ultimate System Suite",
+    "Description": "The Ultimate System Suite (Auto-Config)",
     "Depends": "termux-api, curl, dnsutils",
     "Conflicts": "sysinfo",
     "Replaces": "sysinfo"
@@ -14,6 +14,10 @@
     "./sys-stat": "bin/sys-stat",
     "./sys-clean": "bin/sys-clean",
     "./sys-net": "bin/sys-net",
-    "./sys-alias": "bin/sys-alias"
+    "./sys-alias": "bin/sys-alias",
+    "./sys-weather": "bin/sys-weather"
+  },
+  "scripts": {
+    "postinst": "./postinst"
   }
 }
