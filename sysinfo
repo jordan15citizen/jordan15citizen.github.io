@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "System Tools v1.0"
 dpkg-query -W -f="Ver: \${Version}
 " system-tools
