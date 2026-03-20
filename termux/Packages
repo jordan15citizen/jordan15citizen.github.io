@@ -4,11 +4,11 @@ Architecture: all
 Maintainer: Jordan
 Installed-Size: 2
 Depends: bash, grep, coreutils
-Filename: ./system-tools_0.23.9_all.deb
+Filename: termux/system-tools_0.23.9_all.deb
 Size: 1720
-MD5sum: 9095b9b29c51c4bbc96038b90652aa97
-SHA1: bed1eefdd835912f24eeb57c35a2f0412fecc275
-SHA256: 0578883dcbd380429792c288f469fb2505997972f32dd1f22f8b6c8ca516db01
+MD5sum: 2263c3a96f1f89d686b751d7e9cc015e
+SHA1: 008d369fa2864c400f5979e8a4592d45bae6a9c3
+SHA256: ce244f7ef8d00e3cea73ccbc9dbd68c72cdde5e853b3fb28f0a76b385227c3cf
 Homepage: https://github.com/jordan15citizen
 Description: High-intensity system diagnostics (KVM/CPU/MEM)
 

@@ -1,13 +1,23 @@
-Date: Fri, 20 Mar 2026 23:07:00 +0000
+Architectures: all aarch64
+Codename: termux
+Components: main
+Date: Fri, 20 Mar 2026 23:21:07 +0000
+Label: jordan15citizen
+Origin: jordan15citizen
+Suite: termux
 MD5Sum:
- 5e557ceb8a9b7174ee5b739b0ec33a3f              443 Packages
- 66ba27e9f6ecb6ce8dfc35cf549db1a2               38 Release
+ 656a4af0c9390090fd11082bc8b66ca2              448 Packages
+ e7d18e2acccf28cd3f56651ceee93967              362 Packages.gz
+ f02552f1e35fc9b39812cf019d27195d              160 Release
 SHA1:
- 031da67a9cf37ea7bc992d11befb3991ba817688              443 Packages
- 85fc48b4a45ff01cd37b97846894183cbbcfd0f1               38 Release
+ 267dc80049791855b23240ca7bd0b27902b593dc              448 Packages
+ e8aafb6b93a31b3d0f5ffcc804c381f2213657c9              362 Packages.gz
+ dd0c142858c810f0c65c69e154216f41bd3f26da              160 Release
 SHA256:
- e882551c4bfe7d223a7e7962bcb4f794d1d26b5fbaa6ea6b9548340fea94bf84              443 Packages
- 6e6a96fffb0ed45965c8874411c3b1a4494e5abb75be7fd771a4ed6d4c6ef832               38 Release
+ 9b3b92b4b302a28fec59fbd2d6a95c97c4f5780c90c93822f898bbb062ece1d1              448 Packages
+ 19f2433bb56d980014017afddf06242c0756016ce302e7bd41c93cebdc69b7d1              362 Packages.gz
+ 54a2f0a252b71c90d444dfbb392386984f86f1ce043a05e63048abda6429de3b              160 Release
 SHA512:
- f8c9f3e39f98309e95e30df81d55e08e2879d36d91a1daa55c4633a12e808e1b1845a2f6c986bc163232d803364a33dfc4bf0846ae32837d636838ad8ceafc08              443 Packages
- d4e3645f88e0178bc89a077ce2aa7fe9a3700bb1a1ab2ff2434c97403aad45e7eb6e61a85b3f1582a88c9eda6fd14161e76e532973ce4b1fbf1c1097bbc4b2e0               38 Release
+ f111baea8e2817afdf1af2f3a33103b0887d058c7a07c9cefa6c67a3907fe831f927573c134c81bae4899e2dab2df8ab950cafc51c39571b596d8b78f5b637d3              448 Packages
+ 0102e312c12b431cab43b08d7fbd1a375734cd040a57b65f30b8a8c81147fa5e841f67b4f8b04ad0ab831c7b050dbd670cbd8c62fc8c07fb2c4a5eb26102c0bf              362 Packages.gz
+ 28fd6e94141081faa2dcd7177b894795e29017da105d4fbc398479003fcce4e0cf4d9bc059da33f063647a154cb5bdeb2650494d30bc5b08cdaff4eba30185f5              160 Release
