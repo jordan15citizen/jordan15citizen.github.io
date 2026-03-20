@@ -9,7 +9,7 @@ msg "Exporting new Public Key..."
 gpg --export -a "Jordan" > termux/jordan_pub.gpg
 
 # 2. Build the package
-msg "Building v0.23.9..."
+msg "Building package..."
 termux-create-package manifest.json
 
 # 3. Index and Sign
@@ -18,12 +18,12 @@ dpkg-scanpackages . /dev/null > termux/Packages
 cd termux
 apt-ftparchive release . > Release
 
-# This will now run instantly with NO prompts
-msg "Signing (Final Seal)..."
+msg "Signing..."
 gpg --batch --yes --clearsign -o InRelease Release
 gpg --batch --yes -abs -o Release.gpg Release
 
 msg "${G}Complete.${NC}"
+mv *.deb termux/
 git add .
 git commit -am "$1"
 git push origin main

@@ -5,10 +5,10 @@ Maintainer: Jordan
 Installed-Size: 2
 Depends: bash, grep, coreutils
 Filename: ./system-tools_0.23.9_all.deb
-Size: 1716
-MD5sum: 90e228db2797b9656fac84d1c96d7f09
-SHA1: 66f6f641551a4ecf12b0e05a3d2ae73fc1c43471
-SHA256: b458c4a254ddb9aa69e26dea4df8eda9f2a911c99a4bd84c3234dc19b88805da
+Size: 1720
+MD5sum: 9095b9b29c51c4bbc96038b90652aa97
+SHA1: bed1eefdd835912f24eeb57c35a2f0412fecc275
+SHA256: 0578883dcbd380429792c288f469fb2505997972f32dd1f22f8b6c8ca516db01
 Homepage: https://github.com/jordan15citizen
 Description: High-intensity system diagnostics (KVM/CPU/MEM)
 
