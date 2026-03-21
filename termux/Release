@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 16:44:39 +0000
+Date: Sat, 21 Mar 2026 17:34:18 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 08fda497cefcc4d93b1011eb3218836a              571 Packages
- ee7759bbaf93812d9959753bcd093d6d              421 Packages.gz
- 9035fdfe3e3b4a3f6a9f8723402d9e8f              160 Release
+ b5a5822a79bbd2e74a78d131bfdd355f              572 Packages
+ 051cf95d82d169b4d0d5c2436d13bdde              423 Packages.gz
+ a1d994543d7ffc3b43e1def2b1ce874d              160 Release
 SHA1:
- 81d16a8534255ca2bfc65001a5a33d9919e9381a              571 Packages
- dbcda201fda9d62d272904a985edade956e2430f              421 Packages.gz
- ba35315f8e8edf51890ae88f0c93e3b09c883273              160 Release
+ 813f3a6ef08b09ad2f36dadf26ec04637a88f509              572 Packages
+ 49bdfed43c5c8c61383d6e5b1cf38aab5964d3eb              423 Packages.gz
+ 3670b3235f06ef4ae6297401e231eb25fcb9ec5e              160 Release
 SHA256:
- d9b529d7aeb4deb66aefca400bd1f7c61dcf28800b509daca6d57b5ac2934925              571 Packages
- 69542297714e68d2008dbff8545048864ec89fba52bc451c2be0bb25673b4a9f              421 Packages.gz
- 52cd80cddcc37600ee65fc558c9ebc439b32d8c7d0e9d26d5008f2910a3fea09              160 Release
+ ad097b165306fa7612542332f5a71fa691ccd95f5378917b18bd59548cc3a3ae              572 Packages
+ f5ffc305f1667bd267436a33f9e641d8adf1e0fb3ec9580dade48c14b74d8216              423 Packages.gz
+ 5772a1b003aad31266fca7115841c560b193b379436acfe9fac340d49ce10059              160 Release
 SHA512:
- a276ecec99d0c31e505ec82c61b5d686e065d39b6ae5037a4d35cf6ddbb2ba54b92b41a569154ac1e6e536a79a783c8f263340b6cd2c3db735dec817fef85b95              571 Packages
- 534261887c422f66236a15b83a736b0b9dfacc00ce388263b598d5b638c693f5f3a434e809519bc14d8cf987d17ab5e971d48e9f25748d07bb583028e0f15266              421 Packages.gz
- d1c8935d564899f31543d6af91f2263d4c4f199db6ed1d914101e47d2b958ff4784cf7eb59479c6316e15387e533aa416afcf84a6146f787ebb428af17871149              160 Release
+ a6300e4f574031c34cf12d165137df3f65278a06f3546bb662df05db14c843f663e66ab9db4b82a60587f25d14b9e8c5f38f4f6698b882078137d14f1772f83b              572 Packages
+ 779792afbec453978f5819ba0887b7f68fe2af3ab45022f71477a71929160f239e75af775b167fc3d243e845912ac5e06508cba5342cf736e4fbb3f62e4ac147              423 Packages.gz
+ d08efaa17d92b390072f929cee98c145ce7c997c2422679ef17361f849dbb75185640d72ce162646ca30a4d0c3787c922d837cfb1cb8e7c62d0c1f931b457f59              160 Release
