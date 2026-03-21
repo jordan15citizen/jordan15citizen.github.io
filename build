@@ -52,4 +52,3 @@ git commit -m "$1"
 git push origin main
 
 msg "${G}Finished building and finalising.${NC}"
-curl -s https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash

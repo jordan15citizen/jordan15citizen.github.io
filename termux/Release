@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 11:03:27 +0000
+Date: Sat, 21 Mar 2026 11:17:32 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 18493f41335f55785dd0a0c3422652db              445 Packages
- e4fa7354511bc8b33753ae694bd2b044              349 Packages.gz
- cf6066f3176e19207b8eb1b0ea50e0fc              160 Release
+ e88cebd1fda16e491c12447ba533be21              445 Packages
+ 98708d99802569de0488e2843c9d6b88              351 Packages.gz
+ d3a2cbba9c86c8ca4ffc1d187ddd474f              160 Release
 SHA1:
- 4db0e7aff9ff62bb5cf58319336b8d424eab8322              445 Packages
- c80e5c3aaf5ebe40b8e76a56623e37f95a9a0e75              349 Packages.gz
- 4c2f3f7c1c2e36f0b7f02e74a7ffb03b5b119a9d              160 Release
+ ac6e5690ebe601cd92a03b03998c8d0861a04021              445 Packages
+ 568dceda4e4a90da91abb6cb4c84d992ae5b0d06              351 Packages.gz
+ c1721d05933c6fb30d8202ae1fc03143dd3ee8bf              160 Release
 SHA256:
- 985e708b0dcb9f02c4e7a748d493eef827f2ebbdf4ebc4bd1ba54bc8cfab1551              445 Packages
- d284a6070bfeb322763bc0d5b39ad0367fb50ebe0bb45fc50f2b887afdda5fca              349 Packages.gz
- 05435bcec006c789de23af7aeeab8d4855e81d38b9938844b74b578bda1eaa56              160 Release
+ 551da0c06b30d651a7f9b8fddeeee2fa88e66d2eed4f520aae585918349291e7              445 Packages
+ 09ed2b003aea213acefaa158a9caa2f601344f98ee7acded6c220aebe779d9a3              351 Packages.gz
+ f11d23dc99d7d2e331765f970e6264b840c512f6985c87d87cec13f892e5599a              160 Release
 SHA512:
- a5b2256e35e1c13472941506fc55b90e2f0a83ce150169594a6b1e1ff5f82109b65ce5cb0247da3f6a72844f5bd0367bdca05a0dda89e066732886f4227443f3              445 Packages
- f27ea85363d4afab0e1b33bb93b443dc4a31eac73b0e94c3be132f947e3b7fc59a3ab7c2cafbe4200bcea07a818c64625f3a5d89053803675c485ba6979071a3              349 Packages.gz
- bdc4b646db520f86572fdda0ecb7dd2162da26d96477830425c7b7864ccaab0681648a0925ddbfceb18269641a012553825d866b319f308ce3cd70e24bb1892e              160 Release
+ cb4527cd898494f2d17b2f58648da3537462626eba952f817f730037c920a49010acce3b0d93127b37e5626a90dc65e1a2eb683f2bea766c96b74b6c2232ab15              445 Packages
+ 5550abc8450c556e9f2bf95ceab53413ab3650c3e60df5a39ac0041d91a2546156dbdb8111cd6d699fb5c732a47c299ff0c72413fd5a3ad334b904a5892a5c7e              351 Packages.gz
+ b870b6a557de0c383f37db26dd29b3a3ac43d26bb3a234f2899c9a9ffb39658bf136b8773d9c64061c9ab7590438350355a0f86209a853f8f5aa81bd840cb22d              160 Release

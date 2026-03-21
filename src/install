@@ -1,31 +1,35 @@
 #!/data/data/com.termux/files/usr/bin/sh
 set -e
 
-# 1. Cleanup old/broken keys to prevent conflicts
-rm -f "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
+echo "[*] Starting system-tools 0.43.5 installation..."
 
-# 2. Fetch GPG Key and convert to Binary format (Dearmor)
-# This fixes the "unsupported filetype" error
+# 1. Cleanup old messy configs and ghost keys
+rm -f "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
+rm -f "$PREFIX/etc/apt/trusted.gpg.d/jordan.gpg"
+rm -f "$PREFIX/etc/apt/trusted.gpg.d/jordan.gpg~"
+rm -f "$PREFIX/etc/apt/sources.list.d/system-tools.list"
+
+# 2. Import GPG Key as a clean Binary (The "Nohajc" fix)
+# This prevents the 'unsupported filetype' warnings
 curl -sL "https://jordan15citizen.github.io/termux/jordan_pub.gpg" | gpg --dearmor -o "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
 
-# 3. Add the Repository Source
-# Using a dedicated .list file is the cleanest architecture
-echo "deb https://jordan15citizen.github.io/termux/ ./" > "$PREFIX/etc/apt/sources.list.d/system-tools.list"
+# 3. Add the Repository Source with the clean single-slash syntax
+echo "deb https://jordan15citizen.github.io/termux /" > "$PREFIX/etc/apt/sources.list.d/system-tools.list"
 
 # 4. Sync and Install
-echo "Updating package lists..."
+echo "[*] Updating package lists..."
 pkg update -y
 
-echo "Installing system-tools..."
+echo "[*] Installing system-tools..."
 pkg install -y system-tools
 
-# 5. Final Verification
+# 5. Final Check
 if command -v system-tools >/dev/null 2>&1; then
     echo "----------------------------------------"
-    echo "Installation Successful!"
-    echo "Commands available: system-tools, quick-flash"
+    echo " DONE: system-tools is now active."
+    echo " Run 'system-tools' to begin."
     echo "----------------------------------------"
 else
-    echo "Installation failed. Please check your network."
+    echo "[!] Installation failed. Check your internet connection."
     exit 1
 fi
