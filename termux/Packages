@@ -1,14 +1,14 @@
 Package: system-tools
-Version: 0.44.8
+Version: 0.50.1
 Architecture: all
 Maintainer: Jordan
 Installed-Size: 7
 Depends: bash, grep, coreutils
-Filename: ./system-tools_0.44.8_all.deb
-Size: 3540
-MD5sum: f7707f8d0774d92849128e1e922334e1
-SHA1: 0fea0c8a1d4392191afca22b3ef63bce62f9ca73
-SHA256: 7a149a22c08e030043242645f955f0adc79b02165d1254ed964619947631e298
+Filename: ./system-tools_0.50.1_all.deb
+Size: 3548
+MD5sum: 29f5608c852f29c46c4b8a82865f3920
+SHA1: 72cfba9b5479316845a2dbbf9a7be524930faaac
+SHA256: 361110a7d555dfbd9dda0a4bab6ca6b6ef97acfa3306ae565d214d19fc46795e
 Homepage: https://github.com/jordan15citizen
 Description: System-Tools is a utility for anyone to check certain info or flash images phone-to-phone. It is a debian package for Termux with automation scripts, so it is easy to install.
 
