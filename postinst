@@ -1,0 +1,23 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+# 1. Status Message
+echo "[-] Configuring system-tools.."
+
+# 2. Fix Permissions
+chmod +x /data/data/com.termux/files/usr/bin/system-tools
+
+# Ensure the libary is readable
+chmod 600 /data/data/com.termux/files/usr/lib/libsystem-tools.so
+
+# 3. Dependency Finalization
+# If you want to make sure termux-adb is ready to rock
+if command -v termux-adb >/dev/null 2>&1; then
+    echo "[+] termux-adb integration verified."
+else
+    echo "[!] Warning: termux-adb not found in PATH."
+    echo "[*] Installing termux-adb..."
+    curl -s https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash
+fi
+
+echo "[+] Installation Successful"
+exit 0

@@ -1,5 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-source $PREFIX/lib/libsystem-tools.so
-if [[ ! command -v termux-adb ]]; then
-curl -s https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash
-fi

@@ -1,0 +1,46 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+source "$PREFIX/lib/libsystem-tools.so"
+
+# Input Mapping
+ACTION=$1      # flash
+PARTITION=$2   # boot_a
+FILE=$3        # boot.img
+
+if [[ -z "$ACTION" ]]; then
+    err "No action provided (e.g., flash, reboot)."
+    exit 1
+fi
+
+case $ACTION in
+    flash)
+        if [[ -z "$PARTITION" || -z "$FILE" ]]; then
+            err "Usage: quick-flash flash <partition> <file>"
+            exit 1
+        fi
+
+        if [[ ! -f "$FILE" ]]; then
+            err "File '$FILE' not found in current directory!"
+            exit 1
+        fi
+
+        msg "Target: ${YLW}$PARTITION${NC} | Source: ${CYN}$FILE${NC}"
+        
+        if termux-fastboot devices | grep -q "fastboot"; then
+            msg "Fastboot link established. Flashing..."
+            termux-fastboot flash "$PARTITION" "$FILE"
+            msg "${GRN}Flash Success!${NC}"
+        else
+            err "Device not detected in fastboot mode."
+        fi
+        ;;
+
+    reboot)
+        msg "Sending reboot command..."
+        termux-fastboot reboot
+        ;;
+
+    *)
+        err "Unknown action: $ACTION"
+        ;;
+esac

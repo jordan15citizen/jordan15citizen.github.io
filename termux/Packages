@@ -1,14 +1,14 @@
 Package: system-tools
-Version: 0.42.7
+Version: 0.43.5
 Architecture: all
 Maintainer: Jordan
-Installed-Size: 4
-Depends: bash, grep, coreutils
-Filename: termux/system-tools_0.42.7_all.deb
-Size: 1944
-MD5sum: 2e2d19d5f33a626a3f22645ce1607a97
-SHA1: f1b67eb8a9c1055a57f8599ccb793d9d3f1eb783
-SHA256: 830c3ec31cbee5a5bad8e001410e6823bf4de1f50dba97c60838f081021cf45a
+Installed-Size: 5
+Depends: bash, grep, termux-adb, coreutils
+Filename: termux/system-tools_0.43.5_all.deb
+Size: 2612
+MD5sum: 214ad357751bf309cdfe812df4542a95
+SHA1: 875410c173e25390e35ed111abc7dfd44c469698
+SHA256: c99c761da3f2aabf52ee808bc3369a14da810f7b4920d05671699339260ef1fa
 Homepage: https://github.com/jordan15citizen
-Description: High-intensity system diagnostics (KVM/CPU/MEM)
+Description: System information packed tighty
 

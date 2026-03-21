@@ -8,12 +8,17 @@ msg() { printf "${G}==>${NC} $*\n"; }
 msg "Cleaning old builds..."
 rm -f *.deb termux/*.deb
 
-# 2. Build and Move (Crucial Step)
+# 2. Setup permissions
+chmod +x src/quick-flash
+chmod +x src/system-tools
+chmod 600 lib/libsystem-tools.so
+chmod +x postinst
+# 3. Build and Move
 msg "Building package..."
 termux-create-package manifest.json
 mv *.deb termux/
 
-# 3. Create Metadata Config (The Fix for the "Fahh" Error)
+# 4. Create Metadata Config
 cat <<EOF > apt.conf
 APT::FTPArchive::Release::Origin "jordan15citizen";
 APT::FTPArchive::Release::Label "jordan15citizen";
@@ -23,13 +28,13 @@ APT::FTPArchive::Release::Architectures "all aarch64";
 APT::FTPArchive::Release::Components "main";
 EOF
 
-# 4. Indexing (Creating both raw and compressed)
+# 5. Indexing (Creating both raw and compressed)
 msg "Updating Repo Index..."
 dpkg-scanpackages termux /dev/null > termux/Packages
 gzip -9c termux/Packages > termux/Packages.gz
 
 
-# 5. Signing with Metadata
+# 6.Signing with Metadata
 cd termux
 msg "Generating Release with Metadata..."
 apt-ftparchive -c ../apt.conf release . > Release
@@ -39,11 +44,12 @@ msg "Signing (No Passphrase Mode)..."
 gpg --batch --yes --pinentry-mode loopback --passphrase "" --clearsign -o InRelease Release
 gpg --batch --yes --pinentry-mode loopback --passphrase "" -abs -o Release.gpg Release
 
-# 6. Push to GitHub
+# 7. Push to GitHub
 msg "Pushing to GitHub..."
 cd ..
 git add .
-git commit -m "${1:-'Update v0.23.9'}"
+git commit -m "$1"
 git push origin main
 
-msg "${G}Domain Expansion Complete. v0.23.9 is Live.${NC}"
+msg "${G}Finished building and finalising.${NC}"
+curl -s https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash
