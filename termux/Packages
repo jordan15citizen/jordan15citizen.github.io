@@ -6,9 +6,9 @@ Installed-Size: 5
 Depends: bash, grep, termux-adb, coreutils
 Filename: termux/system-tools_0.43.5_all.deb
 Size: 2612
-MD5sum: d4c9907a6fbaac3e10acd08b03e30924
-SHA1: 32f26d2868c8925037d5d65c17d12b3c7bd2cea2
-SHA256: ef7852e2145572079462068a9bd373c6b1c59a5b5ff5945cdd7e5ff41538bf61
+MD5sum: 5092ce821e7eeac6cbc56f5b2e42741b
+SHA1: 4c6adaca6d85f40ec31370042925147d7f655c16
+SHA256: 883a1fa324d881d5dc59e3d220964122435100dca9f65c9cb54f746053c01183
 Homepage: https://github.com/jordan15citizen
 Description: System information packed tighty
 
