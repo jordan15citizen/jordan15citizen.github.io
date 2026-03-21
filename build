@@ -43,7 +43,6 @@ cd .. # Back to root for Git
 # 7. Push to GitHub
 msg "Pushing to GitHub..."
 cd ..
-git add .
 git commit -m "$1"
 git push origin main
 

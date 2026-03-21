@@ -74,6 +74,25 @@ msg "Display system-tools version."
 # Fetch version from the dpkg database
 VERSION=$(dpkg-query -W -f='${Version}' system-tools 2>/dev/null || echo "unknown")
 echo "System-Tools $VERSION"
+sleep 0.7
+echo "-> Has your APT broken suddenly?"
+sleep 0.7
+echo "-> That might be bizarre!"
+sleep 0.7
+echo "-> But do you know what's even more bizarre?"
+sleep 1
+# The Grand Finale
+echo -e "\e[1;35m-> Hollow Purple\e[0m" 
+exit 0
+;;
+moo)
+apt moo
+exit 0
+;;
+--lenny)
+echo "( ͡° ͜ʖ ͡°)"
+echo "-> Everything is going according to plan."
+exit 0
 ;;
 *)
 err "invalid command $1!"
