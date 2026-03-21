@@ -74,7 +74,7 @@ err() {
     printf "${RED}error:${NC} $*\n"
 }
 
- one finds 4GB to be quite a bit of alright."
+# one finds 4GB to be quite a bit of alright."
 ###############################################################################
 
 # [ASCII LORE BUFFER]

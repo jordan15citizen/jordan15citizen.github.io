@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 17:34:18 +0000
+Date: Sat, 21 Mar 2026 17:36:43 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- b5a5822a79bbd2e74a78d131bfdd355f              572 Packages
- 051cf95d82d169b4d0d5c2436d13bdde              423 Packages.gz
- a1d994543d7ffc3b43e1def2b1ce874d              160 Release
+ 2445045e0e463aafa00d6a2e91c31fb2              572 Packages
+ 60f8c433c645b009e84f784ba7b7c66f              421 Packages.gz
+ 7bfd51e7e2246947c32e4bc4c107dca1              160 Release
 SHA1:
- 813f3a6ef08b09ad2f36dadf26ec04637a88f509              572 Packages
- 49bdfed43c5c8c61383d6e5b1cf38aab5964d3eb              423 Packages.gz
- 3670b3235f06ef4ae6297401e231eb25fcb9ec5e              160 Release
+ 85e9bac249951181ea4f8272106f8f8a5a05aa03              572 Packages
+ 6d5e7ea22e98c99678a6047bd0b13e989a695ef8              421 Packages.gz
+ 5cd7f95e594a4df496bbfa985a0bb15b234ff082              160 Release
 SHA256:
- ad097b165306fa7612542332f5a71fa691ccd95f5378917b18bd59548cc3a3ae              572 Packages
- f5ffc305f1667bd267436a33f9e641d8adf1e0fb3ec9580dade48c14b74d8216              423 Packages.gz
- 5772a1b003aad31266fca7115841c560b193b379436acfe9fac340d49ce10059              160 Release
+ c5a120ec698439979b5cf6c0eba5ac6e33de8d52733705a85919198dda259da9              572 Packages
+ 38c9bfd1ceb99061b5688557b5019c830519f0706f1292d24438105306876092              421 Packages.gz
+ c7fac2ba56acc09b8201bd16f059d470fe3454e21e86bd59f12198af0b3f95b2              160 Release
 SHA512:
- a6300e4f574031c34cf12d165137df3f65278a06f3546bb662df05db14c843f663e66ab9db4b82a60587f25d14b9e8c5f38f4f6698b882078137d14f1772f83b              572 Packages
- 779792afbec453978f5819ba0887b7f68fe2af3ab45022f71477a71929160f239e75af775b167fc3d243e845912ac5e06508cba5342cf736e4fbb3f62e4ac147              423 Packages.gz
- d08efaa17d92b390072f929cee98c145ce7c997c2422679ef17361f849dbb75185640d72ce162646ca30a4d0c3787c922d837cfb1cb8e7c62d0c1f931b457f59              160 Release
+ c5f11fe9b53d3deaa0031753585c73f7875c7001cf6f9abb7b17cac20d1faa676d8ce0009b3a987f3d316ea6443e0ec4b646b5dd2adaa973224153d342ed20d2              572 Packages
+ 5f8b1c2905f4a5792c5270da7bb57704429f5a1040e95f3bac20496fcc1a108e0680d606856f573d52ca030d881c749b65ea6b8451dffb74a21a61a712c9779d              421 Packages.gz
+ fbdfa929092f407eb10dafc44d5caa9440c0f01263f895572620c4eb2c771afea3a8f7b71344e262cfadb93ff131a4dcfcfc3705143a697d0b8698aa0ddb75cc              160 Release
