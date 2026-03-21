@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 11:26:57 +0000
+Date: Sat, 21 Mar 2026 11:33:46 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 639512ce4bda955d3a34126f182b53e1              447 Packages
- 7047367dfd16b15b46437d22a82bcf4a              353 Packages.gz
- 51203ad07bf1f40ca886de56298de86c              160 Release
+ 3c827815a2cf69809b600f2ac6db5257              440 Packages
+ 7b6e8ee234b1167b9e16cc4e2b90a6ff              349 Packages.gz
+ f2c9c7eb0a2c0eef0ff9bb5ab29528ff              160 Release
 SHA1:
- 2a77d365beba9d03ea2aea48e2f6f8df567ec675              447 Packages
- 7d61ed8d81fda2e756128bd6ecfec65e0833240c              353 Packages.gz
- 9bf8e062cc2c64123b8f01c8af4a5950e17c295e              160 Release
+ 8c5cb467eb7113abcd0dd121d97c20cc1bbe987e              440 Packages
+ e0486c9a58236931954eceaa7a56c4da2c86b958              349 Packages.gz
+ 6c56994f4cdb161037652e4b6fc28c106ae71b40              160 Release
 SHA256:
- 525f0a211928f162d889f252c90a6709449ea6300b52acc62d06dfe5381c2b04              447 Packages
- d88ce221e3b02089d4c386792111ecd476c08a9dcf200791d9029d40b1bb37a5              353 Packages.gz
- b4f03e35ad0ea4d464dcd69fd69051fe41bd55fc175f65805ed53bf3002190bb              160 Release
+ 45caae22238a37642f6aee6657d79121f0d6a81f74e7869cb807badf8a7d9e73              440 Packages
+ a41693e49b25c2012c55b65b5b36f07f0184394fb0d45d1e52b80f7a4e779f7f              349 Packages.gz
+ 892f90338d2bfa2a04c076c00c31e58637d754955f1ff5f8071f3c594cddfd8e              160 Release
 SHA512:
- a8b40409122f8905501b586747082a8e20704776f2aca76563b9934260536379a3bea01fd0f3d266a2346186f1f52a071032970023e0b66d0a65afa3c9504f08              447 Packages
- bd7e06cf1840c5232efbc6a22129ceda08f72017ba34b22227c330a8e2f995e0420841e1062ab14066ef9acc5fc5a8699ac4911921c9569c8d8d3bc82e935280              353 Packages.gz
- b35f950e8f17b8e39fba015be0d5ee50e71480f29982e52f0803d492df0ec1cc74f1606fe6fe19bab7149425074311933a39740455606a3ee87552d3a2b941ba              160 Release
+ 50112d58797439ed67bc23a369f8683fb4a08b7888aa3b37e71b8e8a5599e41e60196562835edb698e76bd3bbb7bf575faba4a5a1d34429c0ce3d1cc335ac38b              440 Packages
+ b996e5b9605f03a6a26b62356a35185ac289a946a4a9d311d8f68e8782595505ac9f309b970f0640f0c6bb8b0f76448fae5c05ccc8c41fe8478e2279dbba5dda              349 Packages.gz
+ 027da3426c7b2dba712d965e09056a7cbd16213da4c0bb209a3125c0b44423b8cb014f12bcf3286bdfcf36e7fef538a5cb1c6e20305a6b030a118d028747170c              160 Release

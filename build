@@ -13,36 +13,32 @@ chmod +x src/quick-flash
 chmod +x src/system-tools
 chmod 600 lib/libsystem-tools.so
 chmod +x postinst
+
 # 3. Build and Move
 msg "Building package..."
 termux-create-package manifest.json
 mv *.deb termux/
 
-# 4. Create Metadata Config
-cat <<EOF > apt.conf
-APT::FTPArchive::Release::Origin "jordan15citizen";
-APT::FTPArchive::Release::Label "jordan15citizen";
-APT::FTPArchive::Release::Suite "termux";
-APT::FTPArchive::Release::Codename "termux";
-APT::FTPArchive::Release::Architectures "all aarch64";
-APT::FTPArchive::Release::Components "main";
-EOF
+# ... (Step 4: Create apt.conf) ...
 
-# 5. Indexing (Creating both raw and compressed)
+# 5. Indexing (The Fix: Jump in, scan, jump out)
 msg "Updating Repo Index..."
-dpkg-scanpackages . /dev/null > termux/Packages
-gzip -9c termux/Packages > termux/Packages.gz
+cd termux
+# By being INSIDE, the filename in 'Packages' becomes './system-tools_0.44.1_all.deb'
+dpkg-scanpackages . /dev/null > Packages
+gzip -9c Packages > Packages.gz
+cd .. # Jump back to root so the rest of the script works
 
-
-# 6.Signing with Metadata
+# 6. Signing (Jump in again or stay in root and point)
 cd termux
 msg "Generating Release with Metadata..."
 apt-ftparchive -c ../apt.conf release . > Release
 
 msg "Signing (No Passphrase Mode)..."
-# Using loopback to ensure it never hangs on a prompt
 gpg --batch --yes --pinentry-mode loopback --passphrase "" --clearsign -o InRelease Release
 gpg --batch --yes --pinentry-mode loopback --passphrase "" -abs -o Release.gpg Release
+cd .. # Back to root for Git
+
 
 # 7. Push to GitHub
 msg "Pushing to GitHub..."
