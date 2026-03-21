@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 12:24:07 +0000
+Date: Sat, 21 Mar 2026 12:35:58 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 6ebc63d134689819f2576a61a7107d49              440 Packages
- 860a69a57412f579e56bbd5d450f23e9              350 Packages.gz
- e829b569db7acf484621cbe99d0e12cc              160 Release
+ 9e83c6848953a37507f386a84a88ced1              440 Packages
+ acf6a3c63490a10e5c9269225e36dc6f              351 Packages.gz
+ f6842188bc240d1263a335e75018e8b9              160 Release
 SHA1:
- d78554616127e87da63f10805a70d7edb858a7d3              440 Packages
- 6fd318a150b9313cdad3911cb3f24c828de93d5e              350 Packages.gz
- d31e9b70b74704dd72c55d79f4b4515ec0d60295              160 Release
+ ab055c416b760a4fd634ca29bd39ea303f610d36              440 Packages
+ 2e92e2efbd399d4551e0709555a6ea8713a6e7b6              351 Packages.gz
+ 1d3e7e4453da263a004270a5b91512a6331f4161              160 Release
 SHA256:
- 8cdc90f35056a964e6848d6c3d28a19462d1de327cabddb358e97324eb113b86              440 Packages
- ec9661727d7f189c226a36c159065b2d3ef93bd885efff8ef42fa1c12c65a97b              350 Packages.gz
- 31316c3b38984c102fb05cb4cec9c41b2be02901f458ca25724f0dcab88ed99f              160 Release
+ ffd706bbab5fa445de11adffe8318fe5d380e310c539d12cf900f3c61a906b6a              440 Packages
+ ce9028d614cdcb0207cec18acbce814df1a9a7feccdacb6a201aec4a855011d0              351 Packages.gz
+ 7e7c5b9d18330dbb894aef4865260ce2cab5ce55a86adaa0e2c5ecaff780d031              160 Release
 SHA512:
- 22676ce229e04ddbacd1a794113831a1d443ac69b7085d7ce967ab5adcaef4e297985192495f83bcd3fe01c665929087df796b426f0c9baef01d82da6ce46a86              440 Packages
- 9f86798566865c5372fa9a98136576571a26240d28bb17396b107acb48a1fb64f87191b7d6a89b1fb0c9700b4d2592213601d988ce224f55014f735747d8ee57              350 Packages.gz
- 4d2080bff1f46a8a32574ca8176f0fa1595ceca83d6b1e72e9094a4f5540424c2fe1b32d89eaf5584515552168a3fa44c216de2fbf4cbd82a714c5e8c45a1712              160 Release
+ 02021b0efce4727d2cf7b6db7eead7f4cf976f8bdf854318316904e2ae0dcb50fe9922905c5db2638684b28d2417357d896fabd88bd3190901bd3aa1ef5ff184              440 Packages
+ 27c43ccfa4736ec82f4e4de1a412749e9adc92b62636d168344985f6eaff94ff85bae009163fb2426cdcac5761ee6a3034528a858ba73ffb17fad9db6d07683a              351 Packages.gz
+ 7a651b44cb5f8f8a1690ca7d600600077301555833399a2f73b0b7a614d8e02bc10fead910572bdb472e9c5e4ea035c44d6d79357a582bcccadf8faa7f10bb98              160 Release

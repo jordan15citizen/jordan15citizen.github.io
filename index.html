@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan's System-Tools Repo</title>
+    <style>
+        body { background: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', sans-serif; padding: 40px; }
+        .container { max-width: 800px; margin: auto; border: 1px solid #30363d; border-radius: 8px; padding: 20px; }
+        h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        .folder-list { list-style: none; padding: 0; }
+        .folder-item { display: flex; align-items: center; padding: 12px; border-bottom: 1px solid #21262d; text-decoration: none; color: #adbac7; }
+        .folder-item:hover { background: #161b22; color: #58a6ff; }
+        .icon { margin-right: 15px; font-size: 20px; }
+        .badge { background: #238636; color: white; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-left: 10px; }
+        .version { color: #8b949e; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>( ͡° ͜ʖ ͡°) Jordan's Apt Repository</h1>
+        <p>Official source for <b>System-Tools</b> and bizarre terminal utilities.</p>
+        
+        <div class="folder-list">
+            <a href="./termux/" class="folder-item">
+                <span class="icon">📦</span>
+                <span>/termux</span>
+                <span class="badge">Stable</span>
+            </a>
+            <a href="./src/" class="folder-item">
+                <span class="icon">📂</span>
+                <span>/src</span>
+                <span class="version">[Hollow Purple Source]</span>
+            </a>
+            <a href="./lib/" class="folder-item">
+                <span class="icon">📚</span>
+                <span>/lib</span>
+            </a>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 12px; color: #484f58;">
+            Last Deployment: v0.44.5 | Powered by Git-Maxxing
+        </p>
+    </div>
+</body>
+</html>
