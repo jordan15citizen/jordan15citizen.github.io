@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 17:40:34 +0000
+Date: Sat, 21 Mar 2026 17:47:30 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- b99742b96de29e1304d91c0dc999d8b6              572 Packages
- 65a1ac6fafda53cfaab94baec1e81265              420 Packages.gz
- 8c2ca295ed37bb215986280c720d1d72              160 Release
+ ba03b2e076db8091a70b2677ee23e48b              572 Packages
+ 03584d12436db809c84d1687186446d6              423 Packages.gz
+ 84de42f431fe9cadc0155cab6d0d392a              160 Release
 SHA1:
- f47e8fbd5193a29b1a79a13b4998b20621a952c5              572 Packages
- f36721f54fd4ca1fccf991143a66088c4910ccc9              420 Packages.gz
- 042b0e2cf966a6040287f4e31e35001ed4c70ade              160 Release
+ cfabb6a8f158d5f2324687efc3243befe011d316              572 Packages
+ 6c3db177eaa1f3b3d154e288a2e210cfc5f8cd53              423 Packages.gz
+ 513aea9382319f798f016a960ea24add9ac02a06              160 Release
 SHA256:
- b71e379716808bf721158495dd9daa2fa7d7bcbc9dda8bd044bc06e09f403305              572 Packages
- 336086e0146611aa6ceb7f00415f3fce03cd770e1e18de061bd135636f179453              420 Packages.gz
- 0abe45e43a22b5066b595c2c50c78eb400067e4dec37a5622ed583ae5a893765              160 Release
+ 43909eeb5b3d48ab9624c9d8b4de8580281b0fd0ccde8c0ea8aa2c4e45b6db70              572 Packages
+ f1a78f5bbef1edcb6ff6b6ee5be15dd28dfbc43f8fd455f3a1adaffeef74e974              423 Packages.gz
+ d42fa60be88f39d1b5c6527cc562defff066165ec834f622ebd2181e003359c6              160 Release
 SHA512:
- 173e56d17e28c20cf344456199c53fea9ceba63a6f0288b2752380442e3586a2e990fafc6e9f60ff4bfa8c3bebf334696e8951faf22a7771658242e27b91d4c8              572 Packages
- a552e4b419250933c88582f1bff905aa95970c2dd85f2cb4fdd2c73d880fae505428cf48ad92e70e31cb39ee3b2aa15c70a71d19fe291993d52bd8389e147c51              420 Packages.gz
- b25cd3ab3e20163288d37624cf0c3ee8640ddceb0d9874cd04f1f96cf564d894ba878ca87d1aed79e8540d118e73a4c47ee7c87cd939252c21a013d1d3070f8a              160 Release
+ 61ac200d2aeb9e45546cc4287ca9ede224ca290b33d319ce19f4231df4d003e9a26a1f4ea265c5ff19b0bafa56e4ef449f96181aea5d89928ce0e50f646a917c              572 Packages
+ c42e8a2b706e2933e91d8af1cb4e4d43c1a2994b6c9110ebf113a1993d472e938d5713253f983fb13ac9429f37d1d5b474ffc9b7c7cb70dd420c5a873f09cd8e              423 Packages.gz
+ bb9ea6dc684db41f5dd3ccd7dc6c99926ad2fa692bb1bf4dd935dceeaedb948aa0019bb540cfe964a22051006fcfcdbb0e1c0784241262f3bffba0b04b2212af              160 Release
