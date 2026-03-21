@@ -63,7 +63,7 @@ help)
 echo "Options:"
 echo
 
-# Currently this branch has only two command
+# Currently this branch has commands 
 echo "pull:"
 msg "Pull info from second argument (e.g. kvm-info)"
 

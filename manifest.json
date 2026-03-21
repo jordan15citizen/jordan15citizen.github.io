@@ -1,9 +1,9 @@
 {
 "name": "system-tools",
-"version": "0.44.5",
+"version": "0.44.6",
 "arch": "all",
 "maintainer": "Jordan",
-"description": "System information packed tighty",
+"description": "System-Tools is a utility for anyone to check certain info or flash images phone-to-phone. It is a debian package for Termux with automation scripts, so it is easy to install.",
 "homepage": "https://github.com/jordan15citizen",
 "depends": ["bash", "grep", "coreutils"],
 "files": {
