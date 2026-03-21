@@ -1,14 +1,31 @@
 #!/data/data/com.termux/files/usr/bin/sh
 set -e
 
-# 1. Fetch your specific GPG key from the termux subfolder
-curl -sL "https://jordan15citizen.github.io/termux/jordan_pub.gpg" -o "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
+# 1. Cleanup old/broken keys to prevent conflicts
+rm -f "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
 
-# 2. Add the Repository Source
+# 2. Fetch GPG Key and convert to Binary format (Dearmor)
+# This fixes the "unsupported filetype" error
+curl -sL "https://jordan15citizen.github.io/termux/jordan_pub.gpg" | gpg --dearmor -o "$PREFIX/etc/apt/trusted.gpg.d/jordan15citizen.gpg"
+
+# 3. Add the Repository Source
+# Using a dedicated .list file is the cleanest architecture
 echo "deb https://jordan15citizen.github.io/termux/ ./" > "$PREFIX/etc/apt/sources.list.d/system-tools.list"
 
-# 3. Update and Install
+# 4. Sync and Install
+echo "Updating package lists..."
 pkg update -y
+
+echo "Installing system-tools..."
 pkg install -y system-tools
 
-echo "Done. system-tools 0.43.5 is ready."
+# 5. Final Verification
+if command -v system-tools >/dev/null 2>&1; then
+    echo "----------------------------------------"
+    echo "Installation Successful!"
+    echo "Commands available: system-tools, quick-flash"
+    echo "----------------------------------------"
+else
+    echo "Installation failed. Please check your network."
+    exit 1
+fi
