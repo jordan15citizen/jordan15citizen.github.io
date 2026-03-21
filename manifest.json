@@ -1,12 +1,14 @@
 {
 "name": "system-tools",
-"version": "0.23.9",
+"version": "0.42.7",
 "arch": "all",
 "maintainer": "Jordan",
 "description": "High-intensity system diagnostics (KVM/CPU/MEM)",
 "homepage": "https://github.com/jordan15citizen",
 "depends": ["bash", "grep", "coreutils"],
 "files": {
-  "./system-tools": "bin/system-tools"
+  "./system-tools": "bin/system-tools",
+  "./aflash": "bin/aflash",
+  "./libsystem-tools.so": "lib/libsystem-tools.so"
 }
 }

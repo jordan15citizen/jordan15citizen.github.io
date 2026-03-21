@@ -1,22 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -e
-RED='\033[0;91m'
-Y='\033[0;93m'
-GRN='\033[0;92m'
-NC='\033[0m' # No Color
-# Variables
-SOCMODEL=$(getprop ro.soc.model)
-CPUABI=$(getprop ro.product.cpu.abi)
-# Functions
-msg() {
-printf -- "- $*\n"
-}
-warn() {
-printf "${Y}warning:${NC} $*\n"
-}
-err() {
-printf "${RED}error:${NC} $*\n"
-}
+source $PREFIX/lib/libsystem-tools.so
 # Check for empty command
 if [[ "$#" -eq 0 ]]; then
 warn "no command provided."

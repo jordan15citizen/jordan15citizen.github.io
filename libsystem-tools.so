@@ -1,0 +1,25 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Colours
+export RED='\033[0;91m'
+export Y='\033[0;93m'
+export GRN='\033[0;92m'
+export NC='\033[0m'
+
+# System info
+export SOCMODEL=$(getprop ro.soc.model)
+export CPUABI=$(getprop ro.product.cpu.abi)
+
+# UI Functions
+msg() {
+    printf -- "- $*\n"
+}
+
+warn() {
+    printf "${Y}warning:${NC} $*\n"
+}
+
+err() {
+    printf "${RED}error:${NC} $*\n"
+}
+
