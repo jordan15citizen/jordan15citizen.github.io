@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 17:36:43 +0000
+Date: Sat, 21 Mar 2026 17:40:34 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 2445045e0e463aafa00d6a2e91c31fb2              572 Packages
- 60f8c433c645b009e84f784ba7b7c66f              421 Packages.gz
- 7bfd51e7e2246947c32e4bc4c107dca1              160 Release
+ b99742b96de29e1304d91c0dc999d8b6              572 Packages
+ 65a1ac6fafda53cfaab94baec1e81265              420 Packages.gz
+ 8c2ca295ed37bb215986280c720d1d72              160 Release
 SHA1:
- 85e9bac249951181ea4f8272106f8f8a5a05aa03              572 Packages
- 6d5e7ea22e98c99678a6047bd0b13e989a695ef8              421 Packages.gz
- 5cd7f95e594a4df496bbfa985a0bb15b234ff082              160 Release
+ f47e8fbd5193a29b1a79a13b4998b20621a952c5              572 Packages
+ f36721f54fd4ca1fccf991143a66088c4910ccc9              420 Packages.gz
+ 042b0e2cf966a6040287f4e31e35001ed4c70ade              160 Release
 SHA256:
- c5a120ec698439979b5cf6c0eba5ac6e33de8d52733705a85919198dda259da9              572 Packages
- 38c9bfd1ceb99061b5688557b5019c830519f0706f1292d24438105306876092              421 Packages.gz
- c7fac2ba56acc09b8201bd16f059d470fe3454e21e86bd59f12198af0b3f95b2              160 Release
+ b71e379716808bf721158495dd9daa2fa7d7bcbc9dda8bd044bc06e09f403305              572 Packages
+ 336086e0146611aa6ceb7f00415f3fce03cd770e1e18de061bd135636f179453              420 Packages.gz
+ 0abe45e43a22b5066b595c2c50c78eb400067e4dec37a5622ed583ae5a893765              160 Release
 SHA512:
- c5f11fe9b53d3deaa0031753585c73f7875c7001cf6f9abb7b17cac20d1faa676d8ce0009b3a987f3d316ea6443e0ec4b646b5dd2adaa973224153d342ed20d2              572 Packages
- 5f8b1c2905f4a5792c5270da7bb57704429f5a1040e95f3bac20496fcc1a108e0680d606856f573d52ca030d881c749b65ea6b8451dffb74a21a61a712c9779d              421 Packages.gz
- fbdfa929092f407eb10dafc44d5caa9440c0f01263f895572620c4eb2c771afea3a8f7b71344e262cfadb93ff131a4dcfcfc3705143a697d0b8698aa0ddb75cc              160 Release
+ 173e56d17e28c20cf344456199c53fea9ceba63a6f0288b2752380442e3586a2e990fafc6e9f60ff4bfa8c3bebf334696e8951faf22a7771658242e27b91d4c8              572 Packages
+ a552e4b419250933c88582f1bff905aa95970c2dd85f2cb4fdd2c73d880fae505428cf48ad92e70e31cb39ee3b2aa15c70a71d19fe291993d52bd8389e147c51              420 Packages.gz
+ b25cd3ab3e20163288d37624cf0c3ee8640ddceb0d9874cd04f1f96cf564d894ba878ca87d1aed79e8540d118e73a4c47ee7c87cd939252c21a013d1d3070f8a              160 Release
