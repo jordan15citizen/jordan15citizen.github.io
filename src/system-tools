@@ -59,6 +59,10 @@ err "invalid sub-command $2!"
 esac
 ;;
 help)
+VERSION=$(dpkg-query -W -f='${Version}' system-tools 2>/dev/null || echo "unknown")
+msg "System-Tools $VERSION"
+echo "System-Tools is a utility for anyone to check certain info or flash images phone-to-phone. It is a debian package for Termux with automation scripts, so it is easy to install."
+
 # Options for main commands
 echo "Options:"
 echo
