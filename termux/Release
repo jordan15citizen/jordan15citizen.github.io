@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 10:30:03 +0000
+Date: Sat, 21 Mar 2026 10:44:08 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- 1849bf3481599dd5f973d14df7a09948              445 Packages
- ccfac6ed9e3f6462c32596333941949a              350 Packages.gz
- 53521e0e8434cc136ec18796218e6eb2              160 Release
+ f955c8b4e3b02c7733eeb13810a73163              445 Packages
+ c9ecd5ed020cb87a57a6c84755589fc7              348 Packages.gz
+ a981c53b978b0032eb9a3f16a615646a              160 Release
 SHA1:
- 0c255ef91a1943d05f1b873d71b3c76febb813c5              445 Packages
- 143dfc20a74cb00ec70b13ca9d11d93527548aaf              350 Packages.gz
- eb00859cd720f66bedadd724b54a58df2bf306d7              160 Release
+ 5d10a2777a707bde9ce2f7548264fb24e9463dbe              445 Packages
+ 313665c2e25a5b44100ac69cfc0c4f9aab7fab16              348 Packages.gz
+ e0b2ddb8cecfef15330ab43c86669a824a1291bc              160 Release
 SHA256:
- d0dbaf94ccfebc17ff0844b7af7607bcdecaa84c45b86eec289b29370c24a37b              445 Packages
- a6a697726a00578426e133337fcf203cc99b528ec1eb7969b3669e468e6460ef              350 Packages.gz
- 445e329159648467f5c20204d692d506afa52cc2c970071d6c70ef4a3a3c9b61              160 Release
+ 62aaf4b542b23b33cbe02e46b2cc747326b7cf64186dff25715c831268f29950              445 Packages
+ 4bbb373464e678e8f3669817c1e2280a7a5b2b7e03ee0c6e2b79b0bf9dad2846              348 Packages.gz
+ ace94859cf230ebd0fd69b2d52eb1648d833e3e276b32aab4d58406cf0860361              160 Release
 SHA512:
- 1383619d6faca68a5abf67d48abff2ea27d216b26cbc63f9a6a6340602bb07484a38fe606efa31fff360c750a4af1e714da6fbdf64e5f65f0055dc8fab6a5a21              445 Packages
- 21c4e855db10b7fbff6f3d32063f2e4e2767a2770783ff9b458157f48c0f5dd8e8a2ea28172c0db15e8793587dbd9b9ca940eac02a4a133216b731beb40ada25              350 Packages.gz
- e80be48a471ce7c31020a05439dbe796b6552ce7d151bc16504d489d8a8e6a0dad3123ea9407c75444c24ad9bcb3be6ba1c070f9570a586be0fbd6294007e054              160 Release
+ 05b5b6536a04ad4a80045e338c70a259a475d8350d0dcf01ba08841d81bb089e9eee57144fb41c2963bcb6868b5c0940b5ce1e9ccca6c8a5ac23bd18ef855790              445 Packages
+ 70025d7e15ef47f320e5d082a2ec70ced1e2233365b20403469eaec9b56209f06c4cb6a43bb6ba1dad7addb1a7be0f18ac80eb7a9251bfad14e48db8c6250f5a              348 Packages.gz
+ 91362eb98a7e13d0a9a656280477560f4cea1235c0ae3a12944ab43c50cc930964ce617d4eeda07862c3d7140e1c145a80a858867fdd2eea77c881f7f876feaf              160 Release
