@@ -5,7 +5,7 @@
 "maintainer": "Jordan",
 "description": "System information packed tighty",
 "homepage": "https://github.com/jordan15citizen",
-"depends": ["bash", "grep", "termux-adb", "coreutils"],
+"depends": ["bash", "grep", "coreutils"],
 "files": {
   "./src/system-tools": "bin/system-tools",
   "./src/quick-flash": "bin/quick-flash",
