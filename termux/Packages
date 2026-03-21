@@ -5,10 +5,10 @@ Maintainer: Jordan
 Installed-Size: 5
 Depends: bash, grep, termux-adb, coreutils
 Filename: termux/system-tools_0.43.5_all.deb
-Size: 2608
-MD5sum: 248b41b6b1cb54e82cfcf96d8cbecf50
-SHA1: 91c0ee521bae7ac5ac52d8080f1c2aa4347fc158
-SHA256: e05ed9bb04ba70cc2d10b20284e1f40cf25e70e9560c2a689fe45d5306d7b345
+Size: 2612
+MD5sum: d4c9907a6fbaac3e10acd08b03e30924
+SHA1: 32f26d2868c8925037d5d65c17d12b3c7bd2cea2
+SHA256: ef7852e2145572079462068a9bd373c6b1c59a5b5ff5945cdd7e5ff41538bf61
 Homepage: https://github.com/jordan15citizen
 Description: System information packed tighty
 
