@@ -1,6 +1,6 @@
 {
 "name": "system-tools",
-"version": "0.43.5",
+"version": "0.44.1",
 "arch": "all",
 "maintainer": "Jordan",
 "description": "System information packed tighty",

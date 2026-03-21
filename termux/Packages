@@ -1,14 +1,14 @@
 Package: system-tools
-Version: 0.43.5
+Version: 0.44.1
 Architecture: all
 Maintainer: Jordan
 Installed-Size: 5
 Depends: bash, grep, termux-adb, coreutils
-Filename: termux/system-tools_0.43.5_all.deb
-Size: 2612
-MD5sum: cd3c0a5aef4fdbff60d9b0d939052b30
-SHA1: f1c1b5dd51cef97d8a3a3d7bb385a374ea509033
-SHA256: 08957bd48345bfabf98b4620ef68b795e8d51d3a9d52fd1127ec282ba7de6ff3
+Filename: ./termux/system-tools_0.44.1_all.deb
+Size: 2756
+MD5sum: f20adfa9e4a58b78e0af0786083c6b77
+SHA1: f56de01ea159b12d47daf4fa209dbd3fb57908c3
+SHA256: ea3df1f11b1eb9a168d557cea686f729ce92e653c74e828db0b1694e1d16b140
 Homepage: https://github.com/jordan15citizen
 Description: System information packed tighty
 

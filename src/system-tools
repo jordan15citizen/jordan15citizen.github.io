@@ -63,9 +63,17 @@ help)
 echo "Options:"
 echo
 
-# Currently each branch has only one command
+# Currently this branch has only two command
 echo "pull:"
 msg "Pull info from second argument (e.g. kvm-info)"
+
+echo "-v | --version":
+msg "Display system-tools version."
+;;
+-v|-version)
+# Fetch version from the dpkg database
+VERSION=$(dpkg-query -W -f='${Version}' system-tools 2>/dev/null || echo "unknown")
+echo "System-Tools $VERSION"
 ;;
 *)
 err "invalid command $1!"

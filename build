@@ -30,7 +30,7 @@ EOF
 
 # 5. Indexing (Creating both raw and compressed)
 msg "Updating Repo Index..."
-dpkg-scanpackages termux /dev/null > termux/Packages
+dpkg-scanpackages . /dev/null > termux/Packages
 gzip -9c termux/Packages > termux/Packages.gz
 
 

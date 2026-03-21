@@ -1,23 +1,23 @@
 Architectures: all aarch64
 Codename: termux
 Components: main
-Date: Sat, 21 Mar 2026 11:17:32 +0000
+Date: Sat, 21 Mar 2026 11:26:57 +0000
 Label: jordan15citizen
 Origin: jordan15citizen
 Suite: termux
 MD5Sum:
- e88cebd1fda16e491c12447ba533be21              445 Packages
- 98708d99802569de0488e2843c9d6b88              351 Packages.gz
- d3a2cbba9c86c8ca4ffc1d187ddd474f              160 Release
+ 639512ce4bda955d3a34126f182b53e1              447 Packages
+ 7047367dfd16b15b46437d22a82bcf4a              353 Packages.gz
+ 51203ad07bf1f40ca886de56298de86c              160 Release
 SHA1:
- ac6e5690ebe601cd92a03b03998c8d0861a04021              445 Packages
- 568dceda4e4a90da91abb6cb4c84d992ae5b0d06              351 Packages.gz
- c1721d05933c6fb30d8202ae1fc03143dd3ee8bf              160 Release
+ 2a77d365beba9d03ea2aea48e2f6f8df567ec675              447 Packages
+ 7d61ed8d81fda2e756128bd6ecfec65e0833240c              353 Packages.gz
+ 9bf8e062cc2c64123b8f01c8af4a5950e17c295e              160 Release
 SHA256:
- 551da0c06b30d651a7f9b8fddeeee2fa88e66d2eed4f520aae585918349291e7              445 Packages
- 09ed2b003aea213acefaa158a9caa2f601344f98ee7acded6c220aebe779d9a3              351 Packages.gz
- f11d23dc99d7d2e331765f970e6264b840c512f6985c87d87cec13f892e5599a              160 Release
+ 525f0a211928f162d889f252c90a6709449ea6300b52acc62d06dfe5381c2b04              447 Packages
+ d88ce221e3b02089d4c386792111ecd476c08a9dcf200791d9029d40b1bb37a5              353 Packages.gz
+ b4f03e35ad0ea4d464dcd69fd69051fe41bd55fc175f65805ed53bf3002190bb              160 Release
 SHA512:
- cb4527cd898494f2d17b2f58648da3537462626eba952f817f730037c920a49010acce3b0d93127b37e5626a90dc65e1a2eb683f2bea766c96b74b6c2232ab15              445 Packages
- 5550abc8450c556e9f2bf95ceab53413ab3650c3e60df5a39ac0041d91a2546156dbdb8111cd6d699fb5c732a47c299ff0c72413fd5a3ad334b904a5892a5c7e              351 Packages.gz
- b870b6a557de0c383f37db26dd29b3a3ac43d26bb3a234f2899c9a9ffb39658bf136b8773d9c64061c9ab7590438350355a0f86209a853f8f5aa81bd840cb22d              160 Release
+ a8b40409122f8905501b586747082a8e20704776f2aca76563b9934260536379a3bea01fd0f3d266a2346186f1f52a071032970023e0b66d0a65afa3c9504f08              447 Packages
+ bd7e06cf1840c5232efbc6a22129ceda08f72017ba34b22227c330a8e2f995e0420841e1062ab14066ef9acc5fc5a8699ac4911921c9569c8d8d3bc82e935280              353 Packages.gz
+ b35f950e8f17b8e39fba015be0d5ee50e71480f29982e52f0803d492df0ec1cc74f1606fe6fe19bab7149425074311933a39740455606a3ee87552d3a2b941ba              160 Release
