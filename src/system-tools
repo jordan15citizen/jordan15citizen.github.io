@@ -82,6 +82,20 @@ msg "Pull info from second argument (e.g. kvm-info)"
 
 echo "-v | --version":
 msg "Display system-tools version."
+echo
+
+# Comedic
+echo "Comedic:
+echo"
+echo "--gojo:"
+msg "Display Gojo ASCII Art."
+msg "Nah, I'd win."
+echo
+
+echo "--lenny"
+msg "Lenny face"
+msg "It might not render properly"
+msg "But i can Hollow Purple"
 ;;
 -v|-version)
 # Fetch version from the dpkg database
@@ -106,6 +120,19 @@ exit 0
 echo "( ͡° ͜ʖ ͡°)"
 echo "-> Everything is going according to plan."
 exit 0
+;;
+--gojo)
+echo "⠘⢭⣿⣿⣿⣧⣿⣻⣵⣽⢮⣾⡷⣿⣾⣯⣾⣿⡏⡀⡯⢿⣽⡿⠇⠒⠉⠉⠢⡀⠀
+⠀ ⠸⣛⣿⣿⣾⣿⣟⣿⣿⡟⡯⣾⢟⡶⡽⣾⡯⣇⣷⣽⢯⠇⠀⢀⡀⣀⡀⡀⠈⢢
+  ⢈⠽⣾⣿⢻⣿⢾⢿⣿⣒⢦⠍⠸⡻⢒⣻⣭⢷⣿⡏⣿⠀⠀NAH⠀⠀        ⣧
+⠀⠀⠀⠀⠋⡯⣯⡍⠈⠪⠢⠽⡮⠃⠀⠣⡼⠥⠨⢺⡿⠣⡝⠀⠀    I'D⠀⠀       ⠌ 
+⠀⠀⠀⠀⠀⠘⠉⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢁⢿⠣⡆⠀         WIN      ⡏
+⠀⠀⠀   ⠀⠀⠀⠸⡀⠀⠀⠀⠀⣄⠀⠀⠀⠀⠀⠀⡜⠊⠀⠣⣀⠀⠀⠀⠀⠀      ⢀⠌
+⠀⠀⠀⠀⠀⠀⠀⠀⣿⢄⠠⠄⣀⣈⣀⣀⡀⠄⢠⣺⠇⠀⠀⠠⠂⠁⡲⠒⠂⠂⠉⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡟⠈⢦⡀⠈⠛⠛⠉⢀⠔⢡⢿⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⣴⣾⣇⢳⡌⢿⠦⠤⠤⣴⠏⣀⠀⣿⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣷⡈⣿⡶⢲⢋⣼⣟⣤⣿⣿⣿⣶⣤⣀"
+echo "Freedom to create"
 ;;
 *)
 err "invalid command $1!"
